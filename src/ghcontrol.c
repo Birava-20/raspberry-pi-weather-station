@@ -34,6 +34,8 @@ int GhSetVerticalBar(int bar, COLOR_SENSEHAT pxc, uint8_t value)
 	return EXIT_FAILURE;
 }
 
+
+// This function displays all readings and setpoints.
 void GhDisplayAll(reading_s rd, setpoint_s sd)
 {
 
